@@ -1,0 +1,73 @@
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/css/index.less ***!
+  \**************************************************************************************************************************************************************************************/
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  float: left;
+  background-size: 100% 100%;
+}
+.box1 {
+  background-image: url(../assets/992c94274b20d6742c566713e55aa2c7.png);
+  box-shadow: 10px 10px 10px darkcyan;
+}
+.box2 {
+  background-image: url(../assets/83dff11aa7f361fdc903c803afac145b.png);
+}
+.box3 {
+  background-image: url(../assets/0c0245e70d3e8abde449dce97bd1c6fe.png);
+}
+body {
+  background-color: cyan;
+}
+
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./src/css/a.less ***!
+  \**********************************************************************************************************************************************************************************/
+img {
+  width: 500px;
+}
+
+/*!*****************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/css/b.css ***!
+  \*****************************************************************************************************************************************/
+.box{
+    border: 2px solid darkblue;
+}
+/*!*************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./src/icon/iconfont.css ***!
+  \*************************************************************************************************************************************************/
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url(../93b37539d0c52d2d6cf6.ttf?t=1661787283563) format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+}
+
+.iconfont {
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tingchechang:before {
+  content: "\100e7";
+}
+
+.icon-shujutongji:before {
+  content: "\100e8";
+}
+
+.icon-tudi:before {
+  content: "\100e9";
+}
+
+.icon-tianqi:before {
+  content: "\100ea";
+}
+
+
